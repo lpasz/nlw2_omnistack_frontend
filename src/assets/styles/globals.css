@@ -50,6 +50,7 @@ body {
 body, input, button, textarea {
     /* rem 1.6 * font-size that is 60% of default that is 16px */
     font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
 }
 
 .container {

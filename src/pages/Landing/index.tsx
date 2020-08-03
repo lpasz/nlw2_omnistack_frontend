@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import './styles.css'
 
@@ -24,15 +25,17 @@ function Landing()
                     className="hero-img" />
 
                 <div className="buttons-container">
-                    <a href="" className="study">
+                    {/* use 'Link' instead of 'a', this prevent the whole page to reload */}
+                    <Link to="" className="study">
                         <img src={studyIcon} alt="Estudar" />
                             Estudar
-                    </a>
-
-                    <a href="" className="give-classes">
+                    </Link>
+                    
+                    {/* use 'Link' instead of 'a', this prevent the whole page to reload */}
+                    <Link to="" className="give-classes">
                         <img src={giveClassesIcon} alt="Dar Aulas" />
                             Dar Aulas
-                    </a>
+                    </Link>
 
                 </div>
 

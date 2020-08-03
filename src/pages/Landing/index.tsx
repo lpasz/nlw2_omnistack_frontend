@@ -26,13 +26,13 @@ function Landing()
 
                 <div className="buttons-container">
                     {/* use 'Link' instead of 'a', this prevent the whole page to reload */}
-                    <Link to="" className="study">
+                    <Link to="/study" className="study">
                         <img src={studyIcon} alt="Estudar" />
                             Estudar
                     </Link>
                     
                     {/* use 'Link' instead of 'a', this prevent the whole page to reload */}
-                    <Link to="" className="give-classes">
+                    <Link to="/give-classes" className="give-classes">
                         <img src={giveClassesIcon} alt="Dar Aulas" />
                             Dar Aulas
                     </Link>

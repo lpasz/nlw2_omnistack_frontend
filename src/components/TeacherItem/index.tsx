@@ -15,7 +15,7 @@ export interface Teacher
     cost: number,
     subject: string,
     whatsapp: number,
-
+    avatar: string,
 }
 interface TeacherItemProps
 {
@@ -27,7 +27,7 @@ const TeacherItem: React.FC<TeacherItemProps> = (props) =>
     return (
         <article className="teacher-item">
             <header>
-                <img src="https://avatars3.githubusercontent.com/u/42593470?s=460&u=d2fda126f88153661d82ba2973a6998275e4b53e&v=4" alt="lucas-paszinski" />
+                <img src={props.teacherItem.avatar} />
                 <div>
                     <strong>
                         {props.teacherItem.name}
